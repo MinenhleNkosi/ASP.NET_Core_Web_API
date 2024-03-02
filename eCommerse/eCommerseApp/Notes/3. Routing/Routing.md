@@ -80,10 +80,11 @@ Now we navigate to the **Privacy** page.
 See image below for better illustration on rendering the Index/Home page.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/7.png?raw=true" height="auto" width="800" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/7.png?raw=true" height="auto" width="900" />
 </kbd>
 
 
+------------------------------
 See image below for better illustration on rendering the Privacy page.
 
 <kbd>
