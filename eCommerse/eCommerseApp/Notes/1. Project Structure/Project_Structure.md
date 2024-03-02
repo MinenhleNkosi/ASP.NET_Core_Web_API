@@ -69,7 +69,7 @@ To find information about your project:
     * The order of addidng any service matters, e.g, you can't add `app.UseAuthorization();` without adding `app.UseAuthentication();` first when dealing with **Identity**.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/5.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/5.png?raw=true" height="auto" width="800" />
 </kbd>
 
 
