@@ -1,4 +1,4 @@
-# Project Structre 
+# Project Structre ⚒
 It is how a project gets structured and every IDE consist of slightly different ways of structuring a project.
 
 <kbd>
@@ -38,7 +38,7 @@ To find information about your project:
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/4.png" height="auto" width="600" />
 </kbd>
 
-## Inside the Project
+## Inside the Project 👷🏿‍♂️
 1. **Connected Services**:
     * We will ignore this one since it mostly remains empty.
 2. **Dependencies**:
