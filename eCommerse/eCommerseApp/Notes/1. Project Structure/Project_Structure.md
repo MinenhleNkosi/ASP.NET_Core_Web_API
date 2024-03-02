@@ -2,7 +2,7 @@
 It is how a project gets structured and every IDE consist of slightly different ways of structuring a project.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="800" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
 </kbd>
 
 ## Visual Studio 2022
@@ -14,13 +14,18 @@ It is how a project gets structured and every IDE consist of slightly different 
 * A project exist within the solution and I named it `eCommerseApp`.
 * A solution can have multiple projects within it.
 
-![pic2](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
+</kbd>
 
 ## Project file
 To find information about your project:
 1. Right click on your project.
 2. Select *Edit Project File*.
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
+</kbd>
 ![pic3](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/3.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
 
@@ -30,6 +35,9 @@ To find information about your project:
     * `Nullable`: Checks for nullability of variable when dealing with data.
     * `ImplicitUsing`: Instead of explicitly importing external libraries for use, the `using` is used in C# (which is awesome 😜)
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
+</kbd>
 ![pic4](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/4.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
 ## Inside the Project
@@ -62,6 +70,9 @@ To find information about your project:
         * IsStaging
     * The order of addidng any service matters, e.g, you can't add `app.UseAuthorization();` without adding `app.UseAuthentication();` first when dealing with **Identity**.
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
+</kbd>
 ![pic5](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/5.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
 
