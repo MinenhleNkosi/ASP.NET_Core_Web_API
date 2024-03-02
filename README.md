@@ -18,7 +18,7 @@
     </a>
 </p>
 
-# Welcome to my eCommerce Application 💀
+# Welcome to my eCommerce Application 👩🏿‍💻
 Build real world e-commerce application using **ASP.NET_Core MVC**, **Entity Framework Core** and **ASP.NET_Core Identity**.
 
 ## Why use .NET Core:
