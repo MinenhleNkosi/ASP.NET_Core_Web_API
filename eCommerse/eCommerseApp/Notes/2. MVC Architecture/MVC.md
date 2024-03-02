@@ -19,4 +19,7 @@ It handles the user request and acts as a middleman between the Model and the Vi
 6. The `View` will then populate the `HTMl` will the data and send it back to the `Controller`.
 7. Then lastly the `Controller` will send that data back to the client as a **response** which you get to view on your screen. 
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
+</kbd>
 ![pic](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
