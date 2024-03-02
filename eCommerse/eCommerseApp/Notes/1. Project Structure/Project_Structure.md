@@ -1,7 +1,9 @@
 # Project Structre 
 It is how a project gets structured and every IDE consist of slightly different ways of structuring a project.
 
-![pic1](https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="800" />
+</kbd>
 
 ## Visual Studio 2022
 * The project files are found on the **Solution Explorer** on the right hand side.
