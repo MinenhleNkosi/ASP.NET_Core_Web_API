@@ -21,14 +21,14 @@ Build real world e-commerce application using **ASP.NET_Core MVC**, **Entity Fra
 	• High Performance
 
 ## Prerequisites:
-	• C#
+	• C# Language
 		○ Basic knowledge
-	• SQL 
+	• SQL Language
 		○ We will be working with SQL Server so basic query knowledge will suffice 
-	• Azure
+	• Azure Cloud
 		○ For deployment
 
-## Tools:
+## Tools/Frameworks:
 	• .NET 8
 	• Visual Studio 2022
 	• SSMS 19
