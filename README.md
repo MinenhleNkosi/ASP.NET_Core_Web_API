@@ -65,7 +65,7 @@ Build real world e-commerce application using **ASP.NET_Core MVC**, **Entity Fra
 	• DbContext
 	• Seed Database
 
-For more detailed explaination of how the application was created, check the [link]([https://dev.azure.com/minenhlenkosi/_git/ASP.NET%20Core%20MVC%20(.NET%208)?path=/eCommerse/eCommerseApp/Notes&version=GBmaster](https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/tree/main/eCommerse/eCommerseApp/Notes))
+For more detailed explaination of how the application was created, check the [link](https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/tree/main/eCommerse/eCommerseApp/Notes)
 
 <p align="center">
 	<h3>About the author</h3>
