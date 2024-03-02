@@ -1,12 +1,21 @@
 <p align="center">
     <!-- You can add your badges here -->
     <!-- If you have never added badges, head over to https://img.shields.io/badges/static-badge, follow the instructions and generate URL links to add below -->
-    <img src="https://img.shields.io/badge/DotNet-8-green"  />
-    <img src="https://img.shields.io/badge/SSMS-v19-blue"  />
-    <img src="https://img.shields.io/badge/Azure-purple"  />
-    <img src="https://img.shields.io/badge/Bootstrap-v5-orange"  />
-    <img src="https://img.shields.io/badge/AzureDevOps-red"  />
-    <img src="https://img.shields.io/badge/LICENSE-MIT-lime"  />
+    <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">
+	    <img src="https://img.shields.io/badge/DotNet-8-green"  />
+    </a>
+    <a href="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16">
+	    <img src="https://img.shields.io/badge/SSMS-v19-blue"  />
+    </a>
+    <a href="https://azure.microsoft.com/en-us">
+	    <img src="https://img.shields.io/badge/Azure-purple"  />
+    </a>
+    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">
+	    <img src="https://img.shields.io/badge/Bootstrap-v5-orange"  />
+    </a>
+    <a href="https://opensource.org/license/mit">
+	    <img src="https://img.shields.io/badge/LICENSE-MIT-lime"  />
+    </a>
 </p>
 
 # Welcome to my eCommerce Application 💀
