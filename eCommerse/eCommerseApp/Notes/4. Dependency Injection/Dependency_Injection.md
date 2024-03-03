@@ -48,11 +48,8 @@ So you put all the items you need in one container so that when you need them yo
     * The pages do not know what implementations will be given to them and the DI container container is responsible for all of that.
 
        <kbd>
-        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="600" />
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/4.png?raw=true" height="auto" width="600" />
       </kbd>
-    ![pic4](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/4.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
-
-
 
     * What the framework will do is when a page requests implementation for email interface (IEmail) it will look inside the container to find out that email interface is implemented inside the email class, thus it will create the object by default and pass it on to the page.
     * In that way we do not have to deal with creating the object, managing and disposing it after use in our page
