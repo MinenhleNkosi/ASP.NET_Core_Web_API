@@ -4,14 +4,24 @@ This controller we want to use for performing CRUD operations, which is to say w
 ## Create Category Controller
 1. On the Controller folder, right click on it and select *add*
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
+
     (image11)
 
 2. The select *controller*, select *MVC Controller - Empty*
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
     (image2)
 
 3. Name the controller as `CategoryController.cs`and then press *Add* (when you create a controller the *controller* keyword must be included at the end).
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
     (image33)
 
 4. When the controller has been created, it will have the below code:
@@ -33,10 +43,19 @@ This controller we want to use for performing CRUD operations, which is to say w
 6. Inside the **Views** folder we will create a new folder called **Category**.
 7. Inside that folder we will add a file called `Index.cshtml`
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
     (image44)
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
     (image55)
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
     (image66)
 
 ## Add Category Link in Header
@@ -49,6 +68,9 @@ Add the below code to the *header* tag:
 ```
 Then the Category link on the nav bar will appear as shown below:
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+</kbd>
 (image7)
 
 <br />
@@ -74,6 +96,9 @@ add-migration "Give it a unique phrase or name"
 update-database
 4. Your database will have new data in the database table:
 
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+    </kbd>
     (image8)
 
 
