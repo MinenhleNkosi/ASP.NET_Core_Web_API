@@ -48,10 +48,10 @@ This controller we want to use for performing CRUD operations, which is to say w
       <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/55.png?raw=true" height="auto" width="600" />
     </kbd>
 
+    ------------
     <kbd>
-      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/66.png?raw=true" height="auto" width="600" />
     </kbd>
-    (image66)
 
 ## Add Category Link in Header
 To be able to add category link in header we will have to make use of the `_Layout.cshtml` file.
