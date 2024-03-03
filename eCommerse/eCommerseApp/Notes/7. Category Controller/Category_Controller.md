@@ -5,10 +5,8 @@ This controller we want to use for performing CRUD operations, which is to say w
 1. On the Controller folder, right click on it and select *add*
 
     <kbd>
-      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/11.png?raw=true" height="auto" width="600" />
     </kbd>
-
-    (image11)
 
 2. The select *controller*, select *MVC Controller - Empty*
 
