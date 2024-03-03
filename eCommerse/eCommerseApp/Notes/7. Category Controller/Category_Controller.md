@@ -64,9 +64,8 @@ Add the below code to the *header* tag:
 Then the Category link on the nav bar will appear as shown below:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/7.png?raw=true" height="auto" width="600" />
 </kbd>
-(image7)
 
 <br />
 
