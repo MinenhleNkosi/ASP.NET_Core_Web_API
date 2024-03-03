@@ -91,9 +91,8 @@ update-database
 4. Your database will have new data in the database table:
 
     <kbd>
-      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/8.png?raw=true" height="auto" width="600" />
     </kbd>
-    (image8)
 
 
 ## Get all Categories (Read)
