@@ -17,9 +17,8 @@ This controller we want to use for performing CRUD operations, which is to say w
 3. Name the controller as `CategoryController.cs`and then press *Add* (when you create a controller the *controller* keyword must be included at the end).
 
     <kbd>
-      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/33.png?raw=true" height="auto" width="600" />
     </kbd>
-    (image33)
 
 4. When the controller has been created, it will have the below code:
     ```cs
