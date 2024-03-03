@@ -20,7 +20,11 @@ So you put all the items you need in one container so that when you need them yo
     * Then we will call some methods inside that object and retrieve data.
     * Once we are done, we will dispose that object we created which is `dbObj`.
     * This object create we will have to do for all the 3 pages.
-    
+
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+      </kbd>
+
     ![pic1](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
 
