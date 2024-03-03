@@ -22,12 +22,15 @@ So you put all the items you need in one container so that when you need them yo
     * This object create we will have to do for all the 3 pages.
 
       <kbd>
-        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="400" />
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="600" />
       </kbd>
 
 
     * Same thing we will have to do for the email.
-    
+
+       <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="600" />
+      </kbd>
     ![pic2](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/2.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
     * This creates a lot of duplicate code.
@@ -36,14 +39,20 @@ So you put all the items you need in one container so that when you need them yo
     * We will have a dependecy injection (DI) container and in that container we will register both email and database service.
     * So there we will have an interface of IEmail and IDb.
     * Then we will have the implementation inside Email and Db classes
-    
+
+       <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="600" />
+      </kbd>
     ![pic3](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/3.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
 
 
     * When any page access this functionalities, they would ask for the implementation of IDb or IEmail.
     * The pages do not know what implementations will be given to them and the DI container container is responsible for all of that.
-    
+
+       <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="600" />
+      </kbd>
     ![pic4](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/4.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
 
@@ -53,6 +62,10 @@ So you put all the items you need in one container so that when you need them yo
     * The code will be clean as it will contain the interface and the implementation is provided by the DI container.
     * If we need to make any changes, then we will only change the implementation class in the DI container.
     * After that all the pages wil automatically get the new implementation.
+  
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/1.png?raw=true" height="auto" width="600" />
+      </kbd>
     ![pic5](https://dev.azure.com/minenhlenkosi/a8e904a0-ca8c-4ee6-9bb8-acf45666f7c3/_apis/git/repositories/ea2d8e4f-4bb3-46c9-85b8-59c1cd082958/items?path=/eCommerse/eCommerseApp/Notes/4.%20Dependency%20Injection/Images/5.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
     
