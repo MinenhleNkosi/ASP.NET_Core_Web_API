@@ -49,7 +49,7 @@ Now after clicking the "Create" button we should we able to store them on the da
 Right now our **Index** page has the below categories:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/2.png?raw=true" height="auto" width="1000" />
 </kbd>
 
 ------------
