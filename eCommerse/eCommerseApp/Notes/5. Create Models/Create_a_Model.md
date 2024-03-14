@@ -1,4 +1,4 @@
-# Category Model
+# Category Model 🏗️
 Here I will create a simple category model which we will use to categorise the products in my eCommerce Application.
 
 The model is shown by the code below:
