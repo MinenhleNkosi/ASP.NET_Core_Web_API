@@ -6,26 +6,30 @@ Built-in validation use data annotation, but if you need custom validation which
 ## Match validation:
 1. First we have to go to the **controller** used to create new category which is `CreateMethod.cs`.
 2. From there we have to have an `if()` statement to check if the "category name" and "display order" are the same:
-```cs
-if (obj.Name == obj.DisplayOrder.ToString())
-{
-
-}
-```
+   ```cs
+   if (obj.Name == obj.DisplayOrder.ToString())
+   {
+   
+   }
+   ```
 
 3. If the above condition is true, then we will use the `ModelState.AddModelError()`:
     * The `ModelState.AddModelError()` takes in two argument/parameters, the `key` and the `errorMessage`.
     * The `key` will be the `asp-for="Name"` variable `Name` found inside the input tag in the `CreateMethod.cshtml` 
-
-        (image1)
+      
+         <kbd>
+           <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+         </kbd>
+         <hr>
+         (image1)
 
     * Now we add the `ModelState.AddModelError()`:
-    ```cs
-    if (obj.Name == obj.DisplayOrder.ToString())
-    {
-        ModelState.AddModelError("name", "The Name cannot exactly match the Display Order");
-    }
-    ```
+       ```cs
+       if (obj.Name == obj.DisplayOrder.ToString())
+       {
+           ModelState.AddModelError("name", "The Name cannot exactly match the Display Order");
+       }
+       ```
 
 
 ## Validation Summary
@@ -40,6 +44,10 @@ The validation summary will include all error messages because we there is the `
 
 The image below shows how the validation summarry appears on the client-side:
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 (image2)
 
 Now let's recall that the error message `The Name cannot exactly match the Display Order` appears only when there is an error on the *category name* input field. 
@@ -69,6 +77,10 @@ The reasons for the above validation:
 
 Let's run the application and see what we get
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 (image3)
 
 Both the validation were displayed regardless of whether we specified the `key` or not.
@@ -80,20 +92,31 @@ By now we know that the reason the error message `Test is an invalid value` appe
 What are options we have for the validation summary? We have:
 1. `All`: Displays every error message on the client-side.
     `<div asp-validation-summary="All" style="-webkit-text-fill-color: red"></div>`
+   
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+      </kbd>
+      <hr>
+      (image2)
 
-    (image2)
-
----------------------
-2. `ModelOnly`: Disables property related validations from the model.
+3. `ModelOnly`: Disables property related validations from the model.
     `<div asp-validation-summary="ModelOnly" style="-webkit-text-fill-color: red"></div>`
 
-    (image5)
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+      </kbd>
+      <hr>
+      (image5)
 
 --------------------
 3. `None`: Disables validation summary.
     `<div asp-validation-summary="None" style="-webkit-text-fill-color: red"></div>` 
-
-    (image4)
+   
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+      </kbd>
+      <hr>
+      (image4)
 
 
 
