@@ -20,5 +20,5 @@ It handles the user request and acts as a middleman between the Model and the Vi
 7. Then lastly the `Controller` will send that data back to the client as a **response** which you get to view on your screen. 
 
     <kbd>
-      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="1000" />
     </kbd>
