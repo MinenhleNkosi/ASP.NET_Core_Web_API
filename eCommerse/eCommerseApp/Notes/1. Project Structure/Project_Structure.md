@@ -4,6 +4,7 @@ It is how a project gets structured and every IDE consist of slightly different 
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
 </kbd>
+<hr >
 
 ## Visual Studio 2022
 * The project files are found on the **Solution Explorer** on the right hand side.
@@ -17,6 +18,7 @@ It is how a project gets structured and every IDE consist of slightly different 
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
 </kbd>
+<hr >
 
 ## Project file
 To find information about your project:
@@ -26,7 +28,7 @@ To find information about your project:
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/3.png" height="auto" width="600" />
 </kbd>
-
+<hr >
 
 3. Project information appears.
 4. Inside the `PropertyGroup` it is where you find all your project properties like: 
@@ -37,6 +39,7 @@ To find information about your project:
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/4.png" height="auto" width="600" />
 </kbd>
+<hr >
 
 ## Inside the Project 👷🏿‍♂️
 1. **Connected Services**:
@@ -71,5 +74,5 @@ To find information about your project:
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/5.png?raw=true" height="auto" width="800" />
 </kbd>
-
+<hr >
 
