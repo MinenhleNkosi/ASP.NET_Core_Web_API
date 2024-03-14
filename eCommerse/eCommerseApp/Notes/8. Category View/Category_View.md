@@ -38,7 +38,7 @@ Instead of showing **Wola Boizin** we should display data stored on the database
 so the above code will yield the below table colmns created:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/2.png?raw=true" height="auto" width="400" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/2.png?raw=true" height="auto" width="800" />
 </kbd>
 
 2. Now that we have the table headers, it's time to add the data into it's rightful columns
@@ -102,7 +102,7 @@ We achieve that we use a `for-loop` to do the ieteration thus modifying the code
 5. Now when we run the application, we can see our table displaying the data as expected
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/3.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/3.png?raw=true" height="auto" width="800" />
 </kbd>
 
 6. Now if we want to display the table in ascending order based on the display order, we can alter the code as below:
