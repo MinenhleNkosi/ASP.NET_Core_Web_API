@@ -1,4 +1,4 @@
-# Create Category UI
+# Create Category UI 🐧
 When we create a new page (the one that will appear when we click "create genre"), we don't directly create a new **view** for it. But instead, we first have to create an **action** method from our *controller* that will be invoked and that **action** method invokation will call the **view**.
 
 So, on the Category controller we add the below action method:
@@ -144,7 +144,7 @@ To specify any property inside the view page, we use `asp-for=""`:
 This is the final look for Adding a new category:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/10.%20Category%20list%20Page%20Design/Images/2.png?raw=true" height="auto" width="1050" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
 
