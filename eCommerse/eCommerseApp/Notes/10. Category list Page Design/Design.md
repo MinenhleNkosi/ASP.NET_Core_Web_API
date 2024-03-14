@@ -28,12 +28,16 @@ Now let's examine the above code:
     
 The image below will showcase how the design for the category list page should look like in a grid layout.
 
-(image0)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
+</kbd>
 
 
 The below image shows how the application looks like when we run it:
 
-(image1)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
+</kbd>
 
 
 
@@ -50,7 +54,9 @@ So now when we click the **Create Genre** button, there should be another page w
 
 Below is the grid layout representation of the **Create Genre** page:
 
-(image2)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
+</kbd>
 
 
 When we work with creating a new page, we don't directly create a new view page. 
