@@ -13,7 +13,7 @@ To make our application more appealing to the eye we will make use of **Bootstra
 3. Open the `bootstrap.css` file after downloading it. Copy everything and paste it on the `bootstrap.css` file inside your css folder in your applicaton:
 
 	<kbd>
-	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/1.png?raw=true" height="auto" width="400" />
+	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/9.%20Bootstrap%20Theme/Images/2.png?raw=true" height="auto" width="400" />
 	</kbd>
 
 4. In the `_Layout.cshtml` file, instead of using the `bootstrap.min.css` file link we will use the `bootstrap.css` file link. On the `<head></head>` tag section:
