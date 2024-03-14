@@ -47,7 +47,6 @@ The image below shows how the validation summarry appears on the client-side:
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/14.%20Custom%20Validation/Images/2.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
-(image2)
 
 Now let's recall that the error message `The Name cannot exactly match the Display Order` appears only when there is an error on the *category name* input field. 
 This is because we specified the `key` *name* in the `AddModelError()` method as seen below:
@@ -77,10 +76,9 @@ The reasons for the above validation:
 Let's run the application and see what we get
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/14.%20Custom%20Validation/Images/3.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
-(image3)
 
 Both the validation were displayed regardless of whether we specified the `key` or not.
 The error message `Test is an invalid value` only appeared on the validation summary and not on the *category name* even though the word *test* was an input on the *category name*
