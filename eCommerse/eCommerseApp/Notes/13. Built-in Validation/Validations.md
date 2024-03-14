@@ -203,7 +203,7 @@ We can achieve this by overriding the error message by using **Data Annotation**
 Now after making the above changes to our code, let's run the application and leave the *display order* blank then click the **Create** button and see if we do get to see the overriden **server side** error on the **client side**:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
 
