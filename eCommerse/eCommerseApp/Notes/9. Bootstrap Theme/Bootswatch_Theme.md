@@ -50,7 +50,7 @@ With : `<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-
 * Go to the **Install** section and copy the first link on the **CDN** section:
 
     <kbd>
-	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/9.%20Bootstrap%20Theme/Images/3.png?raw=true" height="auto" width="400" />
+	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/9.%20Bootstrap%20Theme/Images/3.png?raw=true" height="auto" width="800" />
 	</kbd>
 
 * Paste it on the `_Layout.cshtml` head tag section:
