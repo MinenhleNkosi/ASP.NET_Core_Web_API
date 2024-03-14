@@ -64,19 +64,31 @@ Let's check out some few server side validations we added
     * If we place a break-point on the `if (ModelState.IsValid){}` statement (not forgetting that we left the *category name* empty), then click the **Create** button. We will be able to debug and see that there is an error captured on the server side that is causing the *category* to not get created.
         1. Hover over `ModelState`:
 
-            (image1)
+            <kbd>
+              <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+            </kbd>
+            <hr>
         
         2. Open **Result Review** at the bottom:
 
-            (image2)
+            <kbd>
+              <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+            </kbd>
+            <hr>
 
         3. Open **[1]** at the bottom:
 
-            (image3)
+            <kbd>
+              <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+            </kbd>
+            <hr>
 
         4. Open **Errors** then **[0]**:
 
-            (image4)
+            <kbd>
+              <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+            </kbd>
+            <hr>
 
         From here we can see that the error is **The field display order must be between 1 and 100**
 
@@ -153,28 +165,35 @@ After adding the `asp-validation-for` for the *category name* and the *display o
 ## Displaying server-side error messages to the clint-side
 Now let's leave the *category name* then click the **Create** button and see if we do get to see **server side** error on the **client side**:
 
-(image5)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 
-------------------
 Now let's leave the *display order* blank then click the **Create** button and see if we do get to see **server side** error on the **client side**:
 
-(image6)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 
---------------
 Now let's leave the *category name* and the *display order* blank then click the **Create** button and see if we do get to see **server side** errors on the **client side**:
 
-(image7)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 
--------------
 
 Yebo yesss we do get the error messages 🤯😊😉
-
-
 
 ## Overriding server-side error messages
 When to take a closer look to the error message for the *display order* input:
 
-(image8)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 
 From the image we can see it says `Display Order must be between 1 and 100` while we want it to say `Display Order must be between 1-100`.
 We can achieve this by overriding the error message by using **Data Annotation** on the controller at the `CreateMethod()` action for the `DisplayOrder` property:
@@ -184,6 +203,9 @@ We can achieve this by overriding the error message by using **Data Annotation**
 
 Now after making the above changes to our code, let's run the application and leave the *display order* blank then click the **Create** button and see if we do get to see the overriden **server side** error on the **client side**:
 
-(image9)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 
 As we can see from the image above, we get the overriden error message. Iyahlangana mabitsooo 😂😁
