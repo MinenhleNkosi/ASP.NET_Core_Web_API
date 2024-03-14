@@ -143,5 +143,8 @@ To specify any property inside the view page, we use `asp-for=""`:
 
 This is the final look for Adding a new category:
 
-(image1)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/10.%20Category%20list%20Page%20Design/Images/2.png?raw=true" height="auto" width="1050" />
+</kbd>
+<hr>
 
