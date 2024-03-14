@@ -29,14 +29,14 @@ Now let's examine the above code:
 The image below will showcase how the design for the category list page should look like in a grid layout.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/10.%20Category%20list%20Page%20Design/Images/0.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/10.%20Category%20list%20Page%20Design/Images/0.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
 
 The below image shows how the application looks like when we run it:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/10.%20Category%20list%20Page%20Design/Images/1.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
 
