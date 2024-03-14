@@ -91,10 +91,9 @@ What are options we have for the validation summary? We have:
     `<div asp-validation-summary="All" style="-webkit-text-fill-color: red"></div>`
    
       <kbd>
-        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/14.%20Custom%20Validation/Images/2.png?raw=true" height="auto" width="1000" />
       </kbd>
       <hr>
-      (image2)
 
 3. `ModelOnly`: Disables property related validations from the model.
     `<div asp-validation-summary="ModelOnly" style="-webkit-text-fill-color: red"></div>`
