@@ -1,4 +1,4 @@
-# Everyone loves a pretty application
+# Everyone loves a pretty application 🫧
 To make our application more appealing to the eye we will make use of **Bootstrap** and **Bootswatch Theme**
 
 ## Bootswatch Theme
@@ -6,11 +6,15 @@ To make our application more appealing to the eye we will make use of **Bootstra
 	`https://bootswatch.com/`
 2. Download your favourite theme (for this application we are using the Cerulea theme) as shown below:
 
-(image1)
+	<kbd>
+	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/1.png?raw=true" height="auto" width="400" />
+	</kbd>
 
 3. Open the `bootstrap.css` file after downloading it. Copy everything and paste it on the `bootstrap.css` file inside your css folder in your applicaton:
 
-(image2)
+	<kbd>
+	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/1.png?raw=true" height="auto" width="400" />
+	</kbd>
 
 4. In the `_Layout.cshtml` file, instead of using the `bootstrap.min.css` file link we will use the `bootstrap.css` file link. On the `<head></head>` tag section:
 Replace : `<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />`
@@ -45,7 +49,9 @@ With : `<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-
 
 * Go to the **Install** section and copy the first link on the **CDN** section:
 
-    (image3)
+    <kbd>
+	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/8.%20Category%20View/Images/1.png?raw=true" height="auto" width="400" />
+	</kbd>
 
 * Paste it on the `_Layout.cshtml` head tag section:
     ```html
