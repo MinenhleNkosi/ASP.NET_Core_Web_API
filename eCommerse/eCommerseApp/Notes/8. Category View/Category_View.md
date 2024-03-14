@@ -1,7 +1,10 @@
-# Category View.
+# Category View ©
 Right now on our View, which is on the **Views** => **Category** => *Index.cshtml* folder:
 
-(image1)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+</kbd>
+
 
 As of now our view only displays a message **Wola Boizin** since the view has the below code in it:
 ```html
@@ -33,7 +36,10 @@ Instead of showing **Wola Boizin** we should display data stored on the database
 `<tbody></tbody>` tag is the middle section where mst of the data manipulation will take place in our view.
 
 so the above code will yield the below table colmns created:
-(image2)
+
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+</kbd>
 
 2. Now that we have the table headers, it's time to add the data into it's rightful columns
 On our view we now have to specify the model which the data we want to display is based on, on our case it's the `Category.cs` model. We do that as below:
@@ -95,7 +101,9 @@ We achieve that we use a `for-loop` to do the ieteration thus modifying the code
 
 5. Now when we run the application, we can see our table displaying the data as expected
 
-(image3)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/2.%20MVC%20Architecture/Images/1.png?raw=true" height="auto" width="600" />
+</kbd>
 
 6. Now if we want to display the table in ascending order based on the display order, we can alter the code as below:
 ```cshtml
