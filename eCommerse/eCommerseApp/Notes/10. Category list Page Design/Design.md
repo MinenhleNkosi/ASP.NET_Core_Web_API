@@ -55,7 +55,7 @@ So now when we click the **Create Genre** button, there should be another page w
 Below is the grid layout representation of the **Create Genre** page:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/10.%20Category%20list%20Page%20Design/Images/2.png?raw=true" height="auto" width="1050" />
 </kbd>
 <hr>
 
