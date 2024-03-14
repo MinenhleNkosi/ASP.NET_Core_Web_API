@@ -63,7 +63,7 @@ Let's check the database for confirmation:
 Let's make an example and add two categories:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/4.png?raw=true" height="auto" width="1000" />
 </kbd>
 
 ------------
