@@ -31,14 +31,14 @@ The image below will showcase how the design for the category list page should l
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
 </kbd>
-
+<hr>
 
 The below image shows how the application looks like when we run it:
 
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
 </kbd>
-
+<hr>
 
 
 # Design for Create Genre Page
@@ -57,7 +57,7 @@ Below is the grid layout representation of the **Create Genre** page:
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/1.png" height="auto" width="600" />
 </kbd>
-
+<hr>
 
 When we work with creating a new page, we don't directly create a new view page. 
 Instead we first have to create an **action** method that will be invoked which in return will call the view.
