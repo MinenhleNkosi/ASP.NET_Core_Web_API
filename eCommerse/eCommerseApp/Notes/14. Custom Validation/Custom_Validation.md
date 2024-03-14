@@ -1,4 +1,4 @@
-# Custom Validation
+# Custom Validation ☑️
 Built-in validation use data annotation, but if you need custom validation which is not provided by data annotation like:
 * Let's say you want to create a new category/genre and add a validation that "category name" and "display order" cannot be the same.
 * To display all validation summary at the top part of your UI
