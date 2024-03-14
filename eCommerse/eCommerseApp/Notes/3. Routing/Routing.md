@@ -23,7 +23,7 @@ From the above example we see that:
 For more illustartion refer to the image below:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/1.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/1.png?raw=true" height="auto" width="800" />
 </kbd>
 <hr >
 ## Inside the Controllers folder
@@ -32,7 +32,7 @@ If I want to name my file `Home.cs` then it should be `HomeController.cs`.
 Your file should always be placed inside the **Controllers** folder or else it will not work.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/2.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/2.png?raw=true" height="auto" width="800" />
 </kbd>
 <hr >
 ## Inside the Views folder
