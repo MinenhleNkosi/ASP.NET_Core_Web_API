@@ -39,7 +39,7 @@ Your file should always be placed inside the **Controllers** folder or else it w
 Since we named controller `HomeController.cs`, then here we must have a folder called **Home** and that is how the MVC architecture works.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/3.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/3.png?raw=true" height="auto" width="800" />
 </kbd>
 <hr >
 ## Inside the Home folder we have two files:
@@ -49,7 +49,7 @@ Since we named controller `HomeController.cs`, then here we must have a folder c
 These files (index.cshtml and Privacy.cshtml) are what we can see when we run the application.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/4.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/4.png?raw=true" height="auto" width="800" />
 </kbd>
 <hr >
 Pay close attention the the url from the image above. You can see that routing is not specified but yet our application works, how is that possible?
@@ -63,13 +63,13 @@ app.MapControllerRoute(
 When we do specify the routing where our controller name is **Home** and our action is **Index**, we still able to get the above results.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/5.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/5.png?raw=true" height="auto" width="800" />
 </kbd>
 <hr >
 Now we navigate to the **Privacy** page.
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/6.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/3.%20Routing/Images/6.png?raw=true" height="auto" width="800" />
 </kbd>
 <hr >
 ## How does the Controller knows which View to open?
