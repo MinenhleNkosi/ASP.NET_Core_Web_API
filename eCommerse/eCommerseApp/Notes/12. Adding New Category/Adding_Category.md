@@ -1,7 +1,10 @@
-# Adding a new category
+# Adding a new category ➕
 Now that we have the ui for Creating a new category:
 
-(image1)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
+<hr>
 
 Our next step is to:
 1. We take the user inputs
@@ -45,20 +48,28 @@ Now after clicking the "Create" button we should we able to store them on the da
 ## Store on the database
 Right now our **Index** page has the below categories:
 
-(image2)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
 
 ------------
 Let's check the database for confirmation:
 
-(image3)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
 
 ------------
 Let's make an example and add two categories:
 
-(image4)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
 
 ------------
 Now let's check our database to see if they were really added:
 
-(image5)
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/11.%20Create%20Category%20UI/Images/1.png?raw=true" height="auto" width="1000" />
+</kbd>
 
