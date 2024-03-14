@@ -7,7 +7,7 @@ To make our application more appealing to the eye we will make use of **Bootstra
 2. Download your favourite theme (for this application we are using the Cerulea theme) as shown below:
 
 	<kbd>
-	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/9.%20Bootstrap%20Theme/Images/2.png?raw=true" height="auto" width="400" />
+	  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/9.%20Bootstrap%20Theme/Images/1.png?raw=true" height="auto" width="400" />
 	</kbd>
 
 3. Open the `bootstrap.css` file after downloading it. Copy everything and paste it on the `bootstrap.css` file inside your css folder in your applicaton:
