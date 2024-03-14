@@ -15,20 +15,20 @@ It is how a project gets structured and every IDE consist of slightly different 
 * A project exist within the solution and I named it `eCommerseApp`.
 * A solution can have multiple projects within it.
 
-<kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
-</kbd>
-<hr >
+  <kbd>
+    <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/2.png" height="auto" width="600" />
+  </kbd>
+  <hr >
 
 ## Project file
 To find information about your project:
 1. Right click on your project.
 2. Select *Edit Project File*.
 
-<kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/3.png" height="auto" width="600" />
-</kbd>
-<hr >
+    <kbd>
+      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/3.png" height="auto" width="600" />
+    </kbd>
+    <hr >
 
 3. Project information appears.
 4. Inside the `PropertyGroup` it is where you find all your project properties like: 
@@ -36,10 +36,10 @@ To find information about your project:
     * `Nullable`: Checks for nullability of variable when dealing with data.
     * `ImplicitUsing`: Instead of explicitly importing external libraries for use, the `using` is used in C# (which is awesome 😜)
 
-<kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/4.png" height="auto" width="600" />
-</kbd>
-<hr >
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/4.png" height="auto" width="600" />
+      </kbd>
+      <hr >
 
 ## Inside the Project 👷🏿‍♂️
 1. **Connected Services**:
@@ -71,8 +71,8 @@ To find information about your project:
         * IsStaging
     * The order of addidng any service matters, e.g, you can't add `app.UseAuthorization();` without adding `app.UseAuthentication();` first when dealing with **Identity**.
 
-<kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/5.png?raw=true" height="auto" width="800" />
-</kbd>
-<hr >
+      <kbd>
+        <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/1.%20Project%20Structure/Images/5.png?raw=true" height="auto" width="800" />
+      </kbd>
+      <hr >
 
