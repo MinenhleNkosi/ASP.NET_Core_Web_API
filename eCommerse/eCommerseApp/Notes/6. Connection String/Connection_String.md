@@ -1,4 +1,4 @@
-## Connection String
+## Connection String 🧵
 It is what I will use in order to connect the database to the models
 
 ## Let's create a new database
@@ -79,6 +79,6 @@ It is what I will use in order to connect the database to the models
     * update-database  (this is for creating yor database using EF Core)
     * After the commands execute successfully, you should be able to see your database on Sql Server as below:
 
-    <kbd>
-      <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/6.%20Connection%20String/Images/2.png?raw=true" height="auto" width="600" />
-    </kbd>
+        <kbd>
+          <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/6.%20Connection%20String/Images/2.png?raw=true" height="auto" width="400" />
+        </kbd>
