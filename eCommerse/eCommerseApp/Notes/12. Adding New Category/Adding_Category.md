@@ -56,7 +56,7 @@ Right now our **Index** page has the below categories:
 Let's check the database for confirmation:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/3.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/3.png?raw=true" height="auto" width="400" />
 </kbd>
 
 ------------
@@ -70,6 +70,6 @@ Let's make an example and add two categories:
 Now let's check our database to see if they were really added:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/5.png?raw=true" height="auto" width="600" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/5.png?raw=true" height="auto" width="400" />
 </kbd>
 
