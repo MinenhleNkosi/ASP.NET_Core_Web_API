@@ -1,4 +1,4 @@
-# Category Controller
+# Category Controller 👮🏿‍♂️
 This controller we want to use for performing CRUD operations, which is to say we want to be able to **create** a category, **update** a category, **read** a category, **delete** a category.
 
 ## Create Category Controller
@@ -66,7 +66,6 @@ Then the Category link on the nav bar will appear as shown below:
 <kbd>
   <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/7.%20Category%20Controller/Images/7.png?raw=true" height="auto" width="600" />
 </kbd>
-
 <br />
 
 # CRUD Operations
