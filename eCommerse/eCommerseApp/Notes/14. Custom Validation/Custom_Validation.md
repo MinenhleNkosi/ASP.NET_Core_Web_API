@@ -18,10 +18,9 @@ Built-in validation use data annotation, but if you need custom validation which
     * The `key` will be the `asp-for="Name"` variable `Name` found inside the input tag in the `CreateMethod.cshtml` 
       
          <kbd>
-           <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/9.png?raw=true" height="auto" width="1000" />
+           <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/14.%20Custom%20Validation/Images/1.png?raw=true" height="auto" width="1000" />
          </kbd>
          <hr>
-         (image1)
 
     * Now we add the `ModelState.AddModelError()`:
        ```cs
