@@ -1,4 +1,4 @@
-# Dependency Injection
+# Dependency Injection 💉
 Is a design pattern in which a class or an object has it's dependent classes injected rather than directly creating them.
 It's effecient because we do not have to create, manage and dispose the object. It also improves the loose coupling between classes.
 
