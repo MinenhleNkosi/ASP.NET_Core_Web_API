@@ -180,7 +180,7 @@ Now let's leave the *display order* blank then click the **Create** button and s
 Now let's leave the *category name* and the *display order* blank then click the **Create** button and see if we do get to see **server side** errors on the **client side**:
 
 <kbd>
-  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/12.%20Adding%20New%20Category/Images/1.png?raw=true" height="auto" width="1000" />
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/eCommerse/eCommerseApp/Notes/13.%20Built-in%20Validation/Images/7.png?raw=true" height="auto" width="1000" />
 </kbd>
 <hr>
 
