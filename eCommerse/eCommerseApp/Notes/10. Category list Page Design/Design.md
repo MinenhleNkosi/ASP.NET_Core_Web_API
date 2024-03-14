@@ -82,15 +82,15 @@ Our button right now has the below code:
     <a asp-controller="" asp-action="" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Create Genre</a>
     ```
 
-Because of the above code, if we click on the *Create Genre** button, the application will be redirected to the **Home** Page, why?
-The reason is we have not specified the `asp-controller=""` and the `asp-action=""`, so by default if no *controller* and *action* method are specified the page redirects to the **Home** page. Which is implemented in the below code at the `program.cs` file:
-```cshtml
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-```
-
-The code above clearly specifies that by default (if no controller name and action method name have been explicitly specified) the application will redirect to `"{controller=Home}/{action=Index}/{id?}"` when `{id?}` is optional.
+    Because of the above code, if we click on the *Create Genre** button, the application will be redirected to the **Home** Page, why?
+    The reason is we have not specified the `asp-controller=""` and the `asp-action=""`, so by default if no *controller* and *action* method are specified the page redirects to the **Home** page. Which is implemented in the below code at the `program.cs` file:
+    ```cshtml
+    app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+    ```
+    
+    The code above clearly specifies that by default (if no controller name and action method name have been explicitly specified) the application will redirect to `"{controller=Home}/{action=Index}/{id?}"` when `{id?}` is optional.
 
 4. So now we must add the **controller** name and the **action** method name so that when we click the **Create Genre** button it properly redirects to the create genre page and see the *Wola Boizin* message.
     ```cshtml
