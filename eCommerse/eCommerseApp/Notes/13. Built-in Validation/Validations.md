@@ -184,7 +184,6 @@ Now let's leave the *category name* and the *display order* blank then click the
 </kbd>
 <hr>
 
-
 Yebo yesss we do get the error messages 🤯😊😉
 
 ## Overriding server-side error messages
