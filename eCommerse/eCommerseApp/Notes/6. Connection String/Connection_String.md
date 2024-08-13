@@ -7,7 +7,7 @@ It is what I will use in order to connect the database to the models
 3. Go to `appsettings.json` file to initialize your connection string properties like I did below
     ```json
     "ConnectionStrings": {
-        "LocalConection": "Server=DESKTOP-CDTM6JF; Database=CategoryDb; Trusted_Connection=True; TrustServerCertificate=True"
+        "LocalConection": "Server=MyServerName; Database=CategoryDb; Trusted_Connection=True; TrustServerCertificate=True"
     }
     ```
 4. Now that we have the connection string, now we need to install EF Core package by using the Nuget packages
