@@ -21,6 +21,10 @@
 # Welcome to my eCommerce Application 👩🏿‍💻
 Build real world e-commerce application using **ASP.NET_Core MVC**, **Entity Framework Core** and **ASP.NET_Core Identity**.
 
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/Images/visual%20selection.png" height="auto" width="1000" />
+</kbd>
+
 ## Why use .NET Core:
 	• It's fast and open source
 	• Cross Platform
