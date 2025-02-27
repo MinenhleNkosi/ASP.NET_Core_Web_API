@@ -44,26 +44,9 @@ Build real world e-commerce application using **ASP.NET_Core MVC**, **Entity Fra
 	• Azure
 
 ## Course Content
-	• N-Tier Architecture
-	• Repository Pattern
-	• TempData
-	• ViewBag
-	• ViewData
-	• API Controllers  with Razor Pages
-	• SweetAlerts
-	• Rich Text Editor
-	• Data Tables with .NET Core
-	• Scaffolding Identity  (Razor Class Library)
-	• Roles and Authentication
-	• Stripe Payment
-	• Stripe Refund
-	• Session
-	• Email and SendGrid
-	• User Management
-	• Social Login
-	• View Components
-	• DbContext
-	• Seed Database
+<kbd>
+  <img src="https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/blob/main/Images/Visual-pic.png" height="auto" width="1000" />
+</kbd>
 
 For more detailed explaination of how the application was created, check the [link](https://github.com/MinenhleNkosi/ASP.NET_Core_Web_API/tree/main/eCommerse/eCommerseApp/Notes)
 
